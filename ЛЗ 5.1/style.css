@@ -1,0 +1,23 @@
+h1 {
+  font-size: 15px;
+  font-family: Verdana;
+  color: red;
+}
+
+.p1 {
+  font-size: 30px;
+  font-family: Arial;
+  color: yellow;
+}
+
+.p2 {
+  font-size: 28px;
+  font-family: "Times New Roman";
+  color: blue;
+}
+
+.p3{
+  font-size: 19px;
+  font-family: "Times New Roman";
+  color: green;
+}
