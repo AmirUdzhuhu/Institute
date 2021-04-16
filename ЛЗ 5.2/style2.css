@@ -1,0 +1,11 @@
+h1 + p {
+  color: red;
+}
+
+#a2, #a4, #a6 {
+  color: red;
+}
+
+li {
+  margin-bottom: 10px;
+}

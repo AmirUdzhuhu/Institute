@@ -1,0 +1,23 @@
+#first {
+  color: red;
+}
+
+.second {
+  color: blue;
+}
+
+.p1, .p3, .p5 {
+  color: yellow;
+}
+
+.p2, .p6, .p7, .p8 {
+  color: green;
+}
+
+h2, h3, h5, h6{
+  color: red;
+}
+
+.h4 {
+  color: green;
+}
