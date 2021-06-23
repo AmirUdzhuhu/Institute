@@ -1,0 +1,173 @@
+body {
+  background-color: #fefefe;
+  font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background: #051945;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: -60px;
+  padding-top: 60px;
+  left: 0;
+  right: 0;
+}
+
+.menu {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  height: 60px;
+  width: 66px;
+  left: 0;
+  top: 60px;
+}
+
+.main_menu {
+  position: static;
+  width: 680px;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 50px;
+  padding-right: 0;
+  float: left;
+  font-size: 15px;
+  color: #fefefe;
+  position: relative;
+  height: 60px;
+  line-height: 60px;
+  display: block;
+  padding-right: 25px;
+  margin-right: 11px;
+}
+
+.nav {
+  margin-right: 0;
+  font-size: 15px;
+}
+
+li, ol, ul {
+  list-style: none;
+}
+
+.nav_item {
+  margin: 0;
+  color: #fefefe;
+  padding: 0 11px;
+  position: relative;
+  outline: 0;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+}
+
+.top_news {
+  background: #fefefe;
+  position: relative;
+  height: 180px;
+  z-index: 2;
+}
+
+.top_news_1 {
+  margin: 0 auto;
+  padding-right: 0;
+  width: 680px;
+  padding-left: 160px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.shadow {
+  position: absolute;
+  bottom: -18px;
+  height: 18px;
+  width: 100%;
+  pointer-events: none;
+}
+
+.content {
+  padding-top: 11px;
+  background: #f8f8f8;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 19px;
+  padding-bottom: 40px;
+  width: 680px;
+}
+
+.news {
+
+}
+
+.news_1 {
+  margin-bottom: 42px;
+  border-bottom-style: none;
+  padding-bottom: 0;
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #e2e3e4;
+  position: relative;
+}
+
+.footer {
+  display: block;
+  background: #020c22;
+  padding: 54px 0 56px;
+  font-size: 13px;
+  color: #9198aa;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 680px;
+  padding-left: 160px;
+  position: relative;
+}
+
+.footer_menu {
+  width: 160px;
+  float: left;
+  margin-bottom: 18px;
+  margin-right: 20px;
+}
+
+.nav_footer {
+  margin-bottom: 30px;
+  line-height: 17px;
+}
+
+.license {
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  width: 140px;
+  line-height: 17px;
+  z-index: 1;
+}
+
+.copyright {
+  clear: both;
+  position: relative;
+  top: 1px;
+  line-height: 17px;
+  max-width: 120px;
+}
+
+.footer_image {
+  position: absolute;
+  right: 210px;
+  bottom: -4px;
+  background-repeat: no-repeat;
+  background-size: 110px 122px;
+  width: 110px;
+  height: 122px;
+  display: inline-block;
+}
