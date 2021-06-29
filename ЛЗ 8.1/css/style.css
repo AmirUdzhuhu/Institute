@@ -1,0 +1,21 @@
+#list {
+  width: 260px;
+}
+
+.item {
+  width: 250px;
+  height: 20px;
+  float: left;
+  margin: 1px;
+  padding: 3px;
+  background-­color: red;
+  list-­style-­type: none;
+}
+
+#clickme {
+  width: 300px;
+  broder: 1px;
+  solid: gray;
+  paddihg: 3px;
+  cursor: pointer;
+}
