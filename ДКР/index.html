@@ -6,231 +6,179 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <!-- Создать 3 веб-документа, связанных между собой гиперссылками
-  и имеющими визуальное сходство со страницами на сайте Президента России (http://kremlin.ru). -->
-  <!-- Шапка сайта -->
-  <div class='header' id='header'>
-    <div class='menu' id='menu'>
-      <a href='index.html'>Президент России</a>
-      <div class='main_menu' id='main_menu'>
-        <nav>
-          <ul class='nav'>
-            <li class='nav_item'>
-              <a href='events.html'>События</a>
-            </li>
-            <li class='nav_item'>
-              <a href='structure.html'>Структура</a>
-            </li>
-            <li class='nav_item'>
-              <a href='multimedia.html'>Видео и фото</a>
-            </li>
-            <li class='nav_item'>
-              <a href='acts.html'>Документы</a>
-            </li>
-            <li class='nav_item'>
-              <a href='contacts.html'>Контакты</a>
-            </li>
-            <li class='nav_item'>
-              <a href='search.html'>Поиск</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+  <div class='header'>
+    <div class="logo">
+      <a href='index.html' class="nav_logo">Президент России</a>
     </div>
 
-    <div class='search' id='search'>
-
+    <div class='main_menu'>
+      <nav>
+        <ul class='nav'>
+          <li class='nav_item'>
+            <a href='events.html' class="nav_link">События</a>
+          </li>
+          <li class='nav_item'>
+            <a href='structure.html' class="nav_link">Структура</a>
+          </li>
+          <li class='nav_item'>
+            <a href='multimedia.html' class="nav_link">Видео и фото</a>
+          </li>
+          <li class='nav_item'>
+            <a href='acts.html' class="nav_link">Документы</a>
+          </li>
+          <li class='nav_item'>
+            <a href='contacts.html' class="nav_link">Контакты</a>
+          </li>
+          <li class='nav_item'>
+            <a href='search.html' class="nav_link">Поиск</a>
+          </li>
+        </ul>
+      </nav>
     </div>
+
   </div>
 
-  <!-- Весь сайт (без шапки с навигацией) -->
-  <div class='sitepage'>
+  <div class='body'>
 
-    <!-- Весь контент сайта -->
-    <div class='content' id='content'>
-      <div class='top_news'>
-        <a href='http://kremlin.ru/news'>
-          <div class='top_news_1'>
-            <h3>Главная новость!</h3>
-            <div class='top_news_1_image'>
-              <img src='images/top_news_1_image.jpg' width='140' height='100' alt='Изоображение главной новости'>
+    <div class='top_news'>
+      <div class="top_news_in">
+        <div class="top_news_first">
+          <a href='http://kremlin.ru/news'>
+            <h3 class="top_news_text">Съезд партии «Единая Россия»</h3>
+            <div class="top_news_image">
+              <img src='images/top_news_image.jpg' width='140' height='100' alt='Изоображение главной новости'>
             </div>
-            <span>
-              1 января 2021 года
-            </span>
-          </div>
-        </a>
-        <div class='shadow'>
+          </a>
         </div>
       </div>
+    </div>
 
-      <div class='news'>
-        <div class='news_1'>
-          <a href='http://kremlin.ru/news'>
-            <h3>Новость дня!</h3>
-          </a>
-          <div class='publication_time'
-            1 час назад
-          </div>
-          <div class='news_1_image'>
+    <div class='news'>
+      <div class='news_in'>
+
+        <div class="first_news">
+          <h3 class="news_text">
+            <a href='http://kremlin.ru/news'>Прямая линия с Владимиром Путиным</a>
+          </h3>
+          <div class="news_image">
             <a href='http://kremlin.ru/news'>
-              <img src='images/news_1_image.jpg' width='680' height='420' alt='Изоображение новости 1'>
+              <img src='images/news_image.jpg' width='680' height='420' alt='Изоображение новости'>
             </a>
           </div>
         </div>
-      </div>
-      <!-- Ещё много новостей -->
-    </div>
 
-    <!-- Подвал сайта -->
-    <div class='footer' id='footer'>
-      <div class='complementary'>
+        <div class="second_news">
+          <div class="second_news_left">
+            <h3 class="second_news_text_h3">
+              <a href='http://kremlin.ru/news'>Встреча с Заместителем Председателя Правительства Юрием Борисовым</a>
+            </h3>
+            <div class="second_news_images">
+              <img src='images/news_image_1.jpg' width='320' height='220' alt='Изоображение новости'>
+            </div>
+          </div>
 
-        <div class='footer_menu'>
-          <h2>Разделы сайта Президента <br> России</h2>
-          <ul class='nav_footer'>
-            <li class='footer_item'>
-              <a href='events.html'>События</a>
-            </li>
-            <li class='footer_item'>
-              <a href='structure.html'>Структура</a>
-            </li>
-            <li class='footer_item'>
-              <a href='multimedia.html'>Видео и фото</a>
-            </li>
-            <li class='footer_item'>
-              <a href='acts.html'>Документы</a>
-            </li>
-            <li class='footer_item'>
-              <a href='contacts.html'>Контакты</a>
-            </li>
-            <li class='footer_item'>
-              <a href='search.html'>Поиск</a>
-            </li>
-            <li class='footer_item'>
-              <a href='press.html'>Для СМИ</a>
-            </li>
-            <li class='footer_item'>
-              <a href='subscribe.html'>Подписаться</a>
-            </li>
-            <li class='footer_item'>
-              <a href='catalog.html'>Справочник</a>
-            </li>
-          </ul>
-
-          <ul class='nav_footer'>
-            <li class='footer_item'>
-              <a href='index_2.html'>Версия для людей с ограниченными возможностями</a>
-            </li>
-          </ul>
-
-          <ul class='nav_footer'>
-            <li class='footer_item'>
-              <a href="http://twitter.com/KremlinRussia" target="_blank">Твиттер</a>
-            </li>
-            <li>
-              <a href="http://www.youtube.ru/user/kremlin" target="_blank">YouTube</a>
-            </li>
-          </ul>
-
-          <ul class='nav_footer'>
-            <li class='footer_item'>
-              <a href="http://en.kremlin.ru/">
-                <span>English</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class='footer_menu'>
-          <h2>Информационные ресурсы<br>Президента России</h2>
-          <ul class='nav_footer'>
-            <li class='footer_item'>
-              <a href='index.html'>Президент России</a>
-            </li>
-            <li class='footer_item'>
-              <a href='acts.html'>Конституция России</a>
-            </li>
-            <li class='footer_item'>
-              <a href='index.html'>Государственная символика</a>
-            </li>
-            <li class='footer_item'>
-              <a href="http://letters.kremlin.ru/">Отправить письмо</a>
-            </li>
-            <li class='footer_item'>
-              <a href="http://kids.kremlin.ru/">Президент России - <br>гражданам школьного возраста</a>
-            </li>
-            <li class='footer_item'>
-              <a href="http://tours.kremlin.ru/">Виртуальный тур по - <br>Кремлю</a>
-            </li>
-            <li class='footer_item'>
-              <a href="http://putin.kremlin.ru/">Владимир Путин - <br>личный сайт</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class='footer_menu'>
-          <h2>Специальные проекты по защите животных</h2>
-          <ul class='nav_footer'>
-            <li class='footer_item'>
-              <a href="http://programmes.putin.kremlin.ru/tiger/">Амурский тигр</a>
-            </li>
-            <li class='footer_item'>
-              <a href="http://programmes.putin.kremlin.ru/beluha/">Белуха — белый кит</a>
-            </li>
-            <li class='footer_item'>
-              <a href="http://programmes.putin.kremlin.ru/bear/">Белый медведь</a>
-            </li>
-            <li class='footer_item'>
-              <a href="http://programmes.putin.kremlin.ru/leopard/">Ирбис — снежный барс</a>
-            </li>
-            <li class='footer_item'>
-              <a href="http://programmes.putin.kremlin.ru/amur_leopard/">Дальневосточный<br>леопард</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class='footer_menu'>
-          <h2>Правовая и техническая информация</h2>
-          <ul class='nav_footer'>
-            <li class='footer_item'>
-              <a href='about.html'>О портале</a>
-            </li>
-            <li class='footer_item'>
-              <a href='about.html'>Об использовании информации сайта</a>
-            </li>
-            <li class='footer_item'>
-              <a href='about.html'>О персональных данных пользователей</a>
-            </li>
-            <li class='footer_item'>
-              <a href='contacts.html'>Написать в редакцию</a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-
-      <div class='info'>
-        <div class='license'>
-          <p>Все материалы сайта доступны по лицензии:</p>
-          <p><a href="http://creativecommons.org/licenses/by/4.0/deed.ru">Creative Commons Attribution 4.0 International</a></p>
-        </div>
-
-        <div class='copyright'>
-          <span>Администрация </span>
-          <span>Президента России</span>
-          <span>2021 год</span>
-        </div>
-
-        <div class='footer_image'>
-          <img src='images/logo.png' width='110' height='122' alt='Изоображение лого'>
+          <div class="second_news_right">
+            <h3 class="second_news_text_h3">
+              <a href='http://kremlin.ru/news'>Совещание с постоянными членами Совета Безопасности</a>
+            </h3>
+            <div class="second_news_images">
+              <img src='images/news_image_2.jpg' width='320' height='220' alt='Изоображение новости'>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class='sites'>
+      <div class='sites_in'>
+        <ul class="sites_ul">
+          <li class="sites_item">Конституция Российской Федерации</li>
+          <li class="sites_item">Отправить письмо Президенту</li>
+          <li class="sites_item">Официальный портал правовой информации</li>
+          <li class="sites_item">Правительство Российской Федерации</li>
+          <li class="sites_item">Совет Федерации Федерального Собрания Российской Федерации</li>
+          <li class="sites_item">Государственная Дума Российской Федерации</li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 
-  <script src="js/script.js">
+  <div class='footer'>
 
-  </script>
+    <div class='footer_in'>
+      <div class="footer_menu">
+        <div class="footer_column_1">
+          <h2 class="footer_title">Разделы сайта Президента<br>России</h2>
+          <ul class='footer_list'>
+            <li class="footer_item">События</li>
+            <li class="footer_item">Структура</li>
+            <li class="footer_item">Видео и фото</li>
+            <li class="footer_item">Документы</li>
+            <li class="footer_item">Контакты</li>
+            <li class="footer_item">Поиск</li>
+            <li class="footer_item">Для СМИ</li>
+            <li class="footer_item">Подписаться</li>
+            <li class="footer_item">Справочник</li>
+            <li class="footer_item">Версия для людей с ограниченными возможностями</li>
+            <li class="footer_item">Твиттер</li>
+            <li class="footer_item">YouTube</li>
+            <li class="footer_item">English</li>
+          </ul>
+        </div>
+
+        <div class="footer_column_2">
+          <h2 class="footer_title">Информационные<br>ресурсы Президента России</h2>
+          <ul class='footer_list'>
+            <li class="footer_item">Президент России</li>
+            <li class="footer_item">Конституция России</li>
+            <li class="footer_item">Государственная символика</li>
+            <li class="footer_item">Отправить письмо</li>
+            <li class="footer_item">Президент России - гражданам школьного возраста</li>
+            <li class="footer_item">Виртуальный тур по Кремлю</li>
+            <li class="footer_item">Владимир Путин - личный сайт</li>
+          </ul>
+        </div>
+
+        <div class="footer_column_3">
+          <h2 class="footer_title">Специальные проекты по защите животных</h2>
+          <ul class='footer_list'>
+            <li class="footer_item">Амурский тигр</li>
+            <li class="footer_item">Белуха - белый кит</li>
+            <li class="footer_item">Белый седведь</li>
+            <li class="footer_item">Ирбис - снежный барс</li>
+            <li class="footer_item">Дальневосточный леопард</li>
+          </ul>
+        </div>
+
+        <div class="footer_column_4">
+          <h2 class="footer_title">Правовая и техническая информация</h2>
+          <ul class='footer_list'>
+            <li class="footer_item">О портале</li>
+            <li class="footer_item">Об использовании информации сайта</li>
+            <li class="footer_item">Оперсональных данных пользователей</li>
+            <li class="footer_item">Написать в редакцию</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="copyright_left">
+          <p>Администрация Президента России 2021 год</p>
+        </div>
+
+        <div class="copyright_right">
+          <p>Все материалы сайта доступны по лицензии:</p>
+          <br>
+          <p>Creative Commons Attribution 4.0 International</p>
+        </div>
+
+        <div class="footer_logo">
+          <img src='images/logo.png' width='110' height='122' alt='Изоображение эмблемы орла'>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>
